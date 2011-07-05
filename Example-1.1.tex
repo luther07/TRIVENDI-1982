@@ -4,6 +4,7 @@
 \usepackage{palatino}
 \usepackage[american,USenglish]{babel}
 \usepackage{graphicx}
+\usepackage[leqno]{amsmath}
 \usepackage[margin=1.5cm,vmargin={0pt,1cm},includefoot]{geometry}
 \title{}
 \author{Mark Johnons \\
@@ -13,30 +14,19 @@ luther07@gmail.com}
 % the body now follows
 \begin{document}
 \maketitle
-\section{Where To Find Me}
-\begin{itemize}
-\item \url{http://www.twitter.com/luther07}
-\item \url{http://www.github.com/luther07}
-\item \url{http://www.youtube.com/mnjk256}
-\end{itemize}
-\section{Step 1: (Identify the sample space S)}
-\begin{itemize}
-\item
-\item
-\end{itemize}
-\section{Step 2: (Assign probabilities)}
-\begin{itemize}
-\item
-\item
-\end{itemize}
-\section{Step 3: (Identify the events of interest)}
-\begin{itemize}
-\item
-\item
-\end{itemize}
-\section{Step 4: (Compute desired probabilities)}
-\begin{itemize}
-\item
-\item
-\end{itemize}
+\section{Example 1.1}
+\subsection{Step 1: (Identify the sample space S)}
+$ S = \{s_{0}, s_{1}, s_{2},..., s_{31}\} $, with $ s_{0} = \{0,0,0,0,0\}, s_{1} = \{0,0,0,0,1\}, s_{2} = \{0,0,0,1,0\}, s_{3} = \{0,0,0,1,1\},..., s_{31} = 
+\{1,1,1,1,1,\} $, where 0 means busy and 1 means available.
+\subsection{Step 2: (Assign probabilities)}
+Because the problem statement doesn't specify a probability distribution, we assume that each $ s_{i} $ is 
+equiproable with probability of 1/32.
+\subsection{Step 3: (Identify the events of interest)}
+E = "the probability that a process is scheduled for immediate execution, given that the process needs at least 
+three tape drives for its execution." \newline
+$ E = \{(0,0,1,1,1), (0,1,0,1,1), (0,1,1,0,1), (0,1,1,1,0), (0,1,1,1,1), (1,0,0,1,1), (1,0,1,0,1), (1,0,1,1,0), 
+(1,0,1,1,1), (1,1,0,0,1), (1,1,0,1,0), (1,1,0,1,1), (1,1,1,0,0), (1,1,1,0,1), (1,1,1,1,0), (1,1,1,1,1)\} $ \newline
+$ E = \{s_{4}, s_{11}, s_{13}, s_{14}, s_{15}, s_{19}, s_{21}, s_{22}, s_{23}, s_{25}, s_{26}, s_{27}, s_{28}, 
+s_{29}, s_{30}, s_{31}\} $
+\subsection{Step 4: (Compute desired probabilities)}
 \end{document} X
