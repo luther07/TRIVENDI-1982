@@ -15,36 +15,13 @@ Loyola University Chicago}
 \begin{document}
 \maketitle
 \section{Example 1.1 Problem}
-\emph{Consider an example of a computer system with five identical tape drives. One possible random experiment 
-consists of checking the system to see how many tape drives are currently available. Each tape drive is in one of 
-two states: busy (labeled 0) and available (labeled 1). An outcome of the experiment (a point in the sample space) 
-can be denoted by a 5-tuple of 0's and 1's. A 0 in position i of the 5-tuple indicates that tape drive i is busy and 
-a 1 indicates that it is available. The sample space has $ 2^{5}=32 $ sample points, as shown in the table on page 8. 
-Assume that we are required to determine the probability that a process is scheduled for immediate execution, given 
-that the process needs at least three tape drives for its execution.} [Trivendi, 1982]
+\emph{Problem statement:} [Trivendi, 1982]
 \subsection{Step 1: (Identify the sample space S)}
-The points in the sample space must be mutually exclusive and collectively exhaustive. The former means that no two 
-points in the sample space can occur simultaneously. The latter means that the result of any trial must be exactly 
-one point from the sample space. Because the sample space can be defined as a problem of unordered samples of size k 
-with replacements (permutations with replacements) and because each sample point represents one of these 
-permutations, we assert that the sample space has $ n^{k} $ or $ 5^{2} $ sample points. We assert that the sample 
-space 
-defined below is mutually exclusive and collectively exhaustive. \newline
-$ S = \{s_{0}, s_{1}, s_{2},..., s_{31}\} $, where $ s_{0} = \{0,0,0,0,0\}, s_{1} = \{0,0,0,0,1\}, s_{2} = \{0,0,0,1,0\}, s_{3} = \{0,0,0,1,1\},..., s_{31} = 
-\{1,1,1,1,1,\} $
+
 \subsection{Step 2: (Assign probabilities)}
-Because the problem statement doesn't specify a probability distribution, we assume that each $ s_{i} $ is 
-equiproable with probability of 1/32.
+
 \subsection{Step 3: (Identify the events of interest)}
-E = "the probability that a process is scheduled for immediate execution, given that the process needs at least 
-three tape drives for its execution." \newline
-$ E = \{(0,0,1,1,1), (0,1,0,1,1), (0,1,1,0,1), (0,1,1,1,0), \newline
- (0,1,1,1,1), (1,0,0,1,1), (1,0,1,0,1), (1,0,1,1,0), \newline 
-(1,0,1,1,1), (1,1,0,0,1), (1,1,0,1,0), (1,1,0,1,1), \newline
-(1,1,1,0,0), (1,1,1,0,1), (1,1,1,1,0), (1,1,1,1,1)\} $ \newline
-$ E = \{s_{7}, s_{11}, s_{13}, s_{14}, s_{15}, s_{19}, s_{21}, s_{22}, s_{23}, s_{25}, s_{26}, s_{27}, s_{28}, 
-s_{29}, s_{30}, s_{31}\} $
+
 \subsection{Step 4: (Compute desired probabilities)}
-$ P(E) = P(s_{7} \cup s_{11} \cup s_{13} \cup s_{14} \cup s_{15} \cup s_{19} \cup s_{21} \cup s_{22} \cup s_{23} 
-\cup s_{25} \cup s_{26} \cup s_{27} \cup s_{28} \cup s_{29} \cup s_{30} \cup s_{31}) $
+
 \end{document} X
