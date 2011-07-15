@@ -19,9 +19,20 @@ Loyola University Chicago}
 any other. Compute the probabilities associated with the following event: \newline
 A = "At least two but no more than five buffers occupied."} [Trivendi, 1982]
 \subsection{Step 1: (Identify the sample space S)}
-
+The points in the chosen sample space must be mutually exclusive and collectively exhaustive.The former means that no 
+two points in the sample can occur simultaneously. The latter means that the outcome of any trial must be exactly one 
+point from the sample space. We are counting the number of ways that we can select k objects from among n objects 
+where order is important and the same object can be repeated any number of times. Because the sample space can be 
+defined as a problem of ordered samples of size k with replacements (permutations with replacements), and because 
+each sample point represents one of these permutations, we assert that the sample space has $ n^{k} $ or $ 2^{6} $ 
+sample points. We assert that the sample space defined below is mutually exclusive and collectively exhaustive. 
+\newline
+$ S = \{s_{0}, s_{1}, s_{2},..., s_{63}\} $ where \newline
+$ s_{0} = \{0,0,0,0,0,0\}, s_{1} = \{0,0,0,0,0,1\}, s_{2} = \{0,0,0,0,1,0\}, s_{3} = \{0,0,0,0,1,1\},..., s_{63} = 
+\{1,1,1,1,1,1\} $
 \subsection{Step 2: (Assign probabilities)}
-
+Because the problem statement specifies that each event is equiprobable, each sample point has probability of $ 1/S $ 
+or 1/64.
 \subsection{Step 3: (Identify the events of interest)}
 
 \subsection{Step 4: (Compute desired probabilities)}
