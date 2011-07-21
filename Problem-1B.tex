@@ -29,7 +29,7 @@ can be defined as a problem of ordered samples of size k with replacements (perm
 because each sample point represents one of these permutations, we assert that the sample space has $ n^{k} $ or $ 2 
 ^{6} $ sample points. We assert that the sample space defined below is mutually exclusive and collectively 
 exhaustive. \newline
-$ S = \{s_{0}, s_{1}, s_{2},...,ss_{63}\} where \newline
+$ S = \{s_{0}, s_{1}, s_{2},...,ss_{63}\} $ where \newline
 $ s_{0} = \{0,0,0,0,0,0\}, s_{1} = \{0,0,0,0,0,1\}, s_{2} = \{0,0,0,0,1,0\},...,s_{63} = \{1,1,1,1,1,1\} $
 
 \subsection{Step 2: (Assign probabilities)}
@@ -39,13 +39,15 @@ or 1/64.
 \subsection{Step 3: (Identify the events of interest)}
 B = "At least three but no more than five buffers are occupied."
 $ B_{1} = $ "Three buffers are occupied."
-Cardinality of $B{1} will be equal to $ n!/(k!(n-k)!) $, because this combinatorial function computes the number of 
-unordered samples of size k without replacements. This will computer the number of ways that you can choose 3 
+Cardinality of $ B{1} $ will be equal to $ n!/(k!(n-k)!) $, because this combinatorial function computes the number 
+of unordered samples of size k without replacements. This will computer the number of ways that you can choose 3 
 unordered points from 6 points, without replacements. Therefore: \newline
 $ B_{1} = $ 6!/(3!*(6-3)!) $
 $ B_{1} = 720/6*6 $
 $ B_{1} = 720/36 $
 $ B_{1} = 20 $ 
+Therefore, the cardinality of $ B_{1} $ is 20.
+
 $ B_{2} = $ "Four buffers are occupied."
 
 $ B_{3} = $ "Five buffers are occupied."
