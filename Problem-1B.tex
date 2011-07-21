@@ -38,11 +38,17 @@ or 1/64.
 
 \subsection{Step 3: (Identify the events of interest)}
 B = "At least three but no more than five buffers are occupied."
-$B_{1} = $ "Three buffers are occupied."
-Cardinality of $B{1} will be equal to 
-$B_{2} = $ "Four buffers are occupied."
+$ B_{1} = $ "Three buffers are occupied."
+Cardinality of $B{1} will be equal to $ n!/(k!(n-k)!) $, because this combinatorial function computes the number of 
+unordered samples of size k without replacements. This will computer the number of ways that you can choose 3 
+unordered points from 6 points, without replacements. Therefore: \newline
+$ B_{1} = $ 6!/(3!*(6-3)!) $
+$ B_{1} = 720/6*6 $
+$ B_{1} = 720/36 $
+$ B_{1} = 20 $ 
+$ B_{2} = $ "Four buffers are occupied."
 
-$B_{3} = $ "Five buffers are occupied."
+$ B_{3} = $ "Five buffers are occupied."
 
 
 \subsection{Step 4: (Compute desired probabilities)}
