@@ -39,22 +39,23 @@ A = "Two, three, four, or five buffers are occupied."
 By the complementation laws: \newline
 The complement of A, $ \bar{A} $ = "Zero, one, or six buffers are 
 occupied"
-$ \bar{A} = \{(0,0,0,0,0,0), (0,0,0,0,0,1), (0,0,0,0,1,0), \newline
+$ \overline{A} = \{(0,0,0,0,0,0), (0,0,0,0,0,1), (0,0,0,0,1,0), \newline
  (0,0,0,1,0,0), (0,0,1,0,0,0), (0,1,0,0,0,0), (1,0,0,0,0,0), (1,1,1,1,1,1)\} $ \newline
-$ \bar{A} = \{s_{0}, s_{2}, s_{4}, s_{8}, s_{16}, s_{32}, s_{63}\} $
+$ \overline{A} = \{s_{0}, s_{2}, s_{4}, s_{8}, s_{16}, s_{32}, s_{63}\} $
 \subsection{Step 4: (Compute desired probabilities)}
-$ \bar{A} = s_{0} \cup s_{1} \cup s_{2} \cup s_{4} \cup s_{8} \cup s_{16} \cup s_{32} \cup s_{63} $ \newline
+$ \overline{A} = s_{0} \cup s_{1} \cup s_{2} \cup s_{4} \cup s_{8} \cup s_{16} \cup s_{32} \cup s_{63} $ \newline
 By axiom(A3'), \newline
-$ P(\bar{A}) = P(s_{0}) + P(s_{1}) + P(s_{2}) + P(s_{4}) + P(s_{8}) + P(s_{16}) + P(s_{32}) + P(s_{63}) $ \newline
+$ P(\overline{A}) = P(s_{0}) + P(s_{1}) + P(s_{2}) + P(s_{4}) + P(s_{8}) + P(s_{16}) + P(s_{32}) + P(s_{63}) $ 
+\newline
 Because each point in the sample space is equiprobable and because there are 64 points in the sample space, \newline
-$ P(\bar{A}) = 1/64 + 1/64 + 1/64 + 1/64 + 1/64 + 1/64 + 1/64 + 1/64 $ \newline
-$ P(\bar{A}) = 8/64 $ \newline
-$ P(\bar{A}) = 1/8 $ \newline
+$ P(\overline{A}) = 1/64 + 1/64 + 1/64 + 1/64 + 1/64 + 1/64 + 1/64 + 1/64 $ \newline
+$ P(\overline{A}) = 8/64 $ \newline
+$ P(\overline{A}) = 1/8 $ \newline
 By the complementation law of events, $ A \cup \bar{A} = S. $ \newline
-By axiom(A3'), $ P(A \cup \bar{A}) = P(A) + P(\bar{A}). $ \newline
+By axiom(A3'), $ P(A \cup \overline{A}) = P(A) + P(\overline{A}). $ \newline
 By axiom(A2), $ P(S) = 1. $ \newline
-Therefore, $ P(A) + P(\bar{A}) = 1. $ \newline
-And, $ P(A) = 1 - P(\bar{A}). $ \newline
+Therefore, $ P(A) + P(\overline{A}) = 1. $ \newline
+And, $ P(A) = 1 - P(\overline{A}). $ \newline
 Substituting, $ P(A) = 1 - 1/8. $ \newline
 Finally, $ P(A) = 7/8. $ \newline 
 \end{document} X
