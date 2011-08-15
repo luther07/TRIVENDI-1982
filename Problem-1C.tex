@@ -39,9 +39,22 @@ Because the problem statement specifies that each event is equiprobable, each sa
 C = "All buffers available or an even number of buffers occupied." \newline
 C = Zero, Two, Four, or Six buffers occupied. \newline
 $ C = \{c_{0}, c_{1}, c_{2}, c_{3}\} $ where: \newline
-$ c_{0} = $ Zero buffers occupied.
-$ c_{0} = \{(0,0,0,0,0,0)\}. $
-$ c_{0} = \{s_{0}\}. $
+$ c_{0} = $ Zero buffers occupied. \newline
+$ c_{1} = $ Two buffer occupied. \newline
+$ c_{2} = $ Four buffers occupied. \newline
+$ c_{3} = $ Six buffers occupied. \newline
+$ c_{0} = \{(0,0,0,0,0,0)\} $ \newline
+Therefore, $ c_{0} = \{s_{0}\} $. \newline
+$ c_{1} = \{(0,0,0,0,1,1), (0,0,0,1,0,1), (0,0,0,1,1,0), (0,0,1,0,0,1), (0,0,1,0,1,0), (0,0,1,1,0,0), $ \newline
+$ (0,1,0,0,0,1), (0,1,0,0,1,0), (0,1,0,1,0,0), (0,1,1,0,0,0), (1,0,0,0,0,1), (1,0,0,0,1,0), (1,0,0,1,0,0), $ \newline
+$ (1,0,1,0,0,0), (1,1,0,0,0,0)\} $ \newline
+Therefore, $ c_{2} = \{s_{3}, s_{5}, s_{6}, s_{9}, s_{10}, s_{12}, s_{17}, s_{18}, s_{20}, s_{24}, $ \newline
+$ s_{33}, s_{34}, s_{36}, s_{40}, s_{48}\} $. \newline
+$ c_{2} = \{(0,0,1,1,1,1), (0,1,0,1,1,1), (0,1,1,0,1,1), (0,1,1,1,0,1), (0,1,1,1,1,0), (1,0,0,1,1,1),$ \newline
+$ (1,0,1,0,1,1), (1,0,1,1,1,0), (1,1,0,0,1,1), (1,1,0,1,0,1), (1,1,0,1,1,0), (1,1,1,0,0,1), (1,1,1,0,1,0), $ \newline
+$ (1,1,1,1,0,0)\} $ \newline
+Therefore, $ c_{2} = \{s_{15}, 
+
 
 
 \subsection{Step 4: (Compute desired probabilities)}
