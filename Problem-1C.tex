@@ -48,15 +48,31 @@ Therefore, $ c_{0} = \{s_{0}\} $. \newline
 $ c_{1} = \{(0,0,0,0,1,1), (0,0,0,1,0,1), (0,0,0,1,1,0), (0,0,1,0,0,1), (0,0,1,0,1,0), (0,0,1,1,0,0), $ \newline
 $ (0,1,0,0,0,1), (0,1,0,0,1,0), (0,1,0,1,0,0), (0,1,1,0,0,0), (1,0,0,0,0,1), (1,0,0,0,1,0), (1,0,0,1,0,0), $ \newline
 $ (1,0,1,0,0,0), (1,1,0,0,0,0)\} $ \newline
-Therefore, $ c_{2} = \{s_{3}, s_{5}, s_{6}, s_{9}, s_{10}, s_{12}, s_{17}, s_{18}, s_{20}, s_{24}, $ \newline
-$ s_{33}, s_{34}, s_{36}, s_{40}, s_{48}\} $. \newline
+Therefore, $ c_{1} = \{s_{3}, s_{5}, s_{6}, s_{9}, s_{10}, s_{12}, s_{17}, s_{18}, s_{20}, s_{24}, $ \newline
+$ s_{33}, s_{34}, s_{36}, s_{40}, s_{48}\} $ \newline
 $ c_{2} = \{(0,0,1,1,1,1), (0,1,0,1,1,1), (0,1,1,0,1,1), (0,1,1,1,0,1), (0,1,1,1,1,0), (1,0,0,1,1,1),$ \newline
 $ (1,0,1,0,1,1), (1,0,1,1,1,0), (1,1,0,0,1,1), (1,1,0,1,0,1), (1,1,0,1,1,0), (1,1,1,0,0,1), (1,1,1,0,1,0), $ \newline
 $ (1,1,1,1,0,0)\} $ \newline
-Therefore, $ c_{2} = \{s_{15}, 
-
-
-
+Therefore, $ c_{2} = \{s_{15}, s_{23}, s_{27}, s_{29}, s_{30}, s_{39}, s_{43}, s_{46}, s_{51}, s_{53}, $ \newline
+$ s_{54}, s_{57}, s_{58}, s_{60} $ \newline
+$ c_{3} = \{1,1,1,1,1,1\} $ \newline
+$ c_{3} = \{s_{63}\} $ \newline
 \subsection{Step 4: (Compute desired probabilities)}
-
+$ C = \{c_{0}, c_{1}, c_{2}, c_{3}\} $ \newline
+$ C = c_{0} \cup c_{1} \cup c_{2}, \cup c_{3} $ \newline
+$ P(C) = P(c_{0}) + P(c_{1}) + P(c_{2}) + P(c_{3}) $ \newline
+$ P(c_{0}) = \frac{1}{64} $ \newline
+$ P(c_{1}) = \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + 
+\frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} $ \newline  
+$ + \frac{1}{64} + \frac{1}{64} $ \newline
+$ P(c_{1}) = \frac{15}{64} $ \newline
+$ P(c_{2}) = \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} +
+\frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} + \frac{1}{64} $ \newline
+$ + \frac{1}{64} + \frac{1}{64} $ \newline 
+$ P(c_{2}) = \frac{15}{64} $ \newline
+$ P(c_{3}) = \frac{1}{64} $ \newline
+$ P(C) = \frac{1}{64} + \frac{15}{64} + \frac{15}{64} + \frac{1}{64} $ \newline
+$ P(C) = \frac{32}{64} $ \newline
+$ P(C) = \frac{1}{2} $ \newline
+Therefore, the probability that all buffers are available or an even number of buffers are occupied is 0.50. \newline
 \end{document} X
