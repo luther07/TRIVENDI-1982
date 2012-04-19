@@ -9,4 +9,4 @@
   * Problem-1B.tex is the solution to second part of problem 1
     * [Problem-1B PDF solution](http://www.algorithmsanonymous.com/sites/default/files/Problem-1B.pdf)
   * Problem-1C.tex is the solution to third part of problem 1
-    * [Problem-1C PDF solution(http://www.algorithmsanonymous.com/sites/default/files/Problem-1C.pdf)
+    * [Problem-1C PDF solution](http://www.algorithmsanonymous.com/sites/default/files/Problem-1C.pdf)
