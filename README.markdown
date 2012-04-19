@@ -1,6 +1,6 @@
 ## I'm taking problems from Kishor S. Trivendi's 1982 book and creating solutions using LaTeX typesetting. 
 
-* Here's the outline of my work so far:
+### Here's the outline of my work so far:
   * prob-template.tex is a general template for solutions.
   * Example-1.1.tex is the solution to Example 1.1.
     * [Example-1.1 PDF solution](http://www.algorithmsanonymous.com/sites/default/files/Example-1.1.pdf)
